@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sasi Kanth | UI/UX Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+<h2>Sasi Kanth</h2>
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h1>UI/UX & Visual Designer</h1>
+<p>Designing engaging interfaces and creative promotional graphics.</p>
+<button onclick="scrollToProjects()">View My Work</button>
+</div>
+</section>
+
+<section id="about" class="container section">
+<h2>About Me</h2>
+<p>
+Creative designer skilled in Figma, Canva and Kittl. I create website UI designs,
+marketing posters and digital experiences that combine usability with visual appeal.
+</p>
+</section>
+
+<section id="projects" class="container section">
+<h2>Featured Projects</h2>
+
+<div class="grid">
+
+<div class="card" onclick="openModal('Sankranthi.png')">
+<img src="Sankranthi.png">
+<h3>Sankranthi Promotional Poster</h3>
+<p>Festival marketing design.</p>
+</div>
+
+<div class="card" onclick="openModal('Insta_Flyer.png')">
+<img src="Insta_Flyer.png">
+<h3>Music Event Flyer</h3>
+<p>Event promotion poster.</p>
+</div>
+
+<div class="card" onclick="openModal('Pizza_Poster.png')">
+<img src="Pizza_Poster.png">
+<h3>Urban Crust Pizza Ad</h3>
+<p>Food promotion design.</p>
+</div>
+
+<div class="card" onclick="openModal('Kittl_Food.png')">
+<img src="Kittl_Food.png">
+<h3>Sunday Cooking Poster</h3>
+<p>Restaurant marketing design.</p>
+</div>
+
+<div class="card figma">
+<h3>Flux Website UI</h3>
+<p>Interactive prototype created in Figma.</p>
+<a target="_blank"
+href="https://www.figma.com/proto/w83kJ0L9pR4Lx3PAl95MxF/Flux---Figma-Build-Tutorial--Starter---Community-">View Prototype</a>
+</div>
+
+<div class="card figma">
+<h3>Beer Franchise Website UI/UX</h3>
+<p>Interactive beverage website prototype designed in Figma.</p>
+<a target="_blank"
+href="https://www.figma.com/proto/LGmPGmR2JxDaoZowOPQ5oV/Beer2Beer-Website-UI-UX--Community-?page-id=104%3A3&node-id=105-2&viewport=516%2C271%2C0.41&t=r9CBuRIx31pvYpc6-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=114%3A31">
+View Prototype
+</a>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="section contact">
+<div class="container">
+<h2>Contact</h2>
+<p>Email: sasi.nuthulapati@gmail.com</p>
+<p>Mobile: 9494257098</p>
+<p>
+<a target="_blank" href="https://www.linkedin.com/in/sasi-kanth-428066216">
+LinkedIn Profile
+</a>
+</p>
+</div>
+</section>
+
+<div id="modal" class="modal" onclick="closeModal()">
+<img id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
